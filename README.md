@@ -1,4 +1,4 @@
-# raster-surface-overlay-vector-map
+# raster-terrain-surface-overlay-vector map
 
 This map illustrates the extent of the settlement locality, suco boundaries database. Click on the map to receive more information about individual point objects on the map. Demonstration of thematic layers at CAMSTL Timor-Leste Audiovisual Archive Localhost server. Refer to data source notes for additional information. [ Metadata 18-02-2001 - 15-03-2021 ].
 
