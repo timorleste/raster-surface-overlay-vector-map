@@ -109,7 +109,7 @@ function placeMarker( selectedMap ){
 //  var test = LS.Send.Marker._latlng
 //  if ( isFinite(test.lat) && isFinite(test.lng) ){
     if (!LS.Send.Marker._latlng ) {
-      console.log('if (!LS.Send.Marker._latlng ) { passed!  line 150')
+      console.log('if (!LS.Send.Marker._latlng ) { passed!  line 250')
       LS.Send.Marker = L.marker( selectedMap.getCenter() , {draggable: true,icon: sendIcon} );
       setSendValues( selectedMap.getCenter() )
       LS.Send.Marker.on('dragend', function(event) {
@@ -124,7 +124,7 @@ function placeMarker( selectedMap ){
     
     
  //   selectedMap.setView( location , 16 )
-    LS.Send.Marker.openPopup(20);
+    LS.Send.Marker.openPopup(50);
 //  }
 };
 
