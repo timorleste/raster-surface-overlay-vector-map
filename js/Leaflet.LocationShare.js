@@ -4,7 +4,7 @@ L.LocShare = {}
 var LS = L.LocShare
 LS.Send = {}
 LS.Send.Marker = {}
-LS.Send.Popup = L.popup().setContent('<div><input id="sendText" type="text" style="border-color:#a7a7a7;border:solid;border-width:2px;border-radius:5px;height:30px;" size="30" onkeyup="L.LocShare.Send.UpdateMessage( this )" placeholder="hakarek localizasaun ou posisaun"/></div><div style="height:35px;"><button style="border-style:solid;border-radius:5px;border-color:#3d94f6;float:right;color:white;background-color:#3d94f6;height:35px;font-size:16px;line-height:1px;margin:5px;" onclick="copyPrompt()">get url</button></div></div>')
+LS.Send.Popup = L.popup().setContent('<div><input id="sendText" type="text" style="border-color:#a7a7a7;border:solid;border-width:2px;border-radius:5px;height:30px;" size="30" onkeyup="L.LocShare.Send.UpdateMessage( this )" placeholder="hakarek localizasaun ou posisaun"/></div><div style="height:35px;"><button style="border-style:solid;border-radius:1px;border-color:#3d94f6;float:right;color:white;background-color:#3d94f6;height:35px;font-size:16px;line-height:1px;margin:5px;" onclick="copyPrompt()">get url</button></div></div>')
 LS.Receive = {}
 LS.Receive.Marker = {}
 LS.Receive.Popup = L.popup()
